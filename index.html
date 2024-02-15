@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Elias Alonzo">
+    <meta name="keywords" content="Portafolio, Programador Web , Front-end, Web Developer">
+    <meta name="description" content="Desarrollador web profesional, fullStack">
+    <title>Portafolio Elias Alonzox </title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script type="module" src="assets/js/main.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar grid--container">
+
+            <div id="nav" class="navbar__menu">
+                <ul class="navbar__list ">
+                    <li class="navbar__item">
+                        <a class="navbar__link active" id="home" href="#">Inicio</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a class="navbar__link active" id="acerca" href="#about">Acerca de mi</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a class="navbar__link active" id="habilidad" href="#skills">Habilidades</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a class="navbar__link active" id="projec" href="#projects">Proyecto</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a class="navbar__link active" id="contac" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar__toggles">
+                <div class="navbar__toggle--darkmode" >
+                    <input type="checkbox" id="darkmode-toggle" class="navbar__toggle--darkmode-input" />
+                    <label for="darkmode-toggle" class="navbar__toggle--darkmode-label">
+                        <i class='bx bx-sun navbar__toggle--darkmode-sun'></i>
+                        <i class='bx bx-moon navbar__toggle--darkmode-moon'></i>
+                    </label>
+                </div>
+
+                <!--  <div class="navbar__toggle--language">
+                    <input type="checkbox" id="language-toggle" value=true class="navbar__toggle--language-input">
+                    <label for="language-toggle" class="navbar__toggle--language-label"></label>
+                </div> -->
+                <select class="select" id="language-select">
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                </select>
+            </div>
+            <a href="#nav"><i class='bx bx-menu btn__open navbar__icon'></i></a>
+        </nav>
+    </header>
+    <main>
+        <section id="homeSection" class="home">
+            <i class='bx bxl-nodejs home__layer home__layer--1' data-speed="-5"></i>
+            <i class='bx bxl-react home__layer home__layer--2' data-speed="3"></i>
+            <i class='bx bxl-css3 home__layer home__layer--3' data-speed="2"></i>
+            <i class='bx bxl-tailwind home__layer home__layer--4' data-speed="-2"></i>
+            <i class='bx bxl-git home__layer home__layer--5' data-speed="4"></i>
+            <i class='bx bxl-html5 home__layer home__layer--6' data-speed="-3"></i>
+            <i class='bx bx-data home__layer home__layer--7' data-speed="-4"></i>
+            <div class="home__container grid--container">
+                <div class="home__image">
+                    <img src="assets/img/profile.JPG" alt="Imagen de perfil">
+                </div>
+                <ul class="home__social">
+                    <li class="home__social-item">
+                        <a href="" class="home__social-link"><i class='bx bxl-linkedin'></i></a>
+                    </li>
+                    <li class="home__social-item">
+                        <a href="" class="home__social-link"><i class='bx bxl-whatsapp'></i></a>
+                    </li>
+                    <li class="home__social-item">
+                        <a href="" class="home__social-link"><i class='bx bxl-github'></i></a>
+                    </li>
+                </ul>
+                <div class="home__info">
+                    <h1 class="home__title" id="saludo">Hola, soy Elias</h1>
+                    <p id="aboutLang">Desarrollador FullStack. Me encanta el proceso , el diseño y el análisis con un
+                        enfoque colaborativo para abordar la solución final</p>
+                </div>
+                <div class="home__buttons">
+                    <button id="descarga" class="btn btn--primary" type="button"><a
+                            href="/portafolio/assets/cv/curriculum.pdf" download>Descargar CV</a></button>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about section">
+            <h2 id="aboutMe" class="section__title">Acerca de mi</h2>
+            <div class="about__container grid--container">
+                <p id="meDescription" class="about__description">
+                    Soy una persona apasionada en la industria tecnológica, me encanta innovar y generar buenos
+                    productos. Utilizo la investigación y la formación constante como base, lo cuál me permite analizar,
+                    aplicar y mantener mejoras a largo plazo.
+                </p>
+                <div class="about__cards">
+                    <div class="aobut__card">
+                        <img src="" alt="" class="about__card--img">
+                    </div>
+                    <div class="aobut__card">
+                        <img src="" alt="" class="about__card--img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="skills section">
+            <h2 id="skil" class="section__title">Habilidades</h2>
+            <div class="skills__container grid--container">
+                <p id="skilldes" class="skills_description">
+                    Tengo un fuerte enfoque autodidacta y colaborativo, amplia experiencia en el area de Front-end,
+                    buscando la exelencia constante
+                </p>
+                <div class="skills__wrapper">
+                    <div class="skills__cards">
+                        <!-- CARD 1 -->
+                        <input type="radio" name="slide" id="c1" checked class="skills__input">
+                        <label for="c1" class="skills__card">
+                            <div class="skills__card-row">
+                                <i class='bx bxl-html5'></i>
+                                <div class="skills__description">
+                                    <h3 class="skills__card-title">HTML</h3>
+                                    <P id="htm">Pasando desde html clásico , sus fundamentos y los nuevos enfoques de
+                                        HTML5</P>
+                                </div>
+                            </div>
+                        </label>
+                        <!-- CARD 2 -->
+                        <input type="radio" name="slide" id="c2" checked class="skills__input">
+                        <label for="c2" class="skills__card">
+                            <div class="skills__card-row">
+                                <i class='bx bxl-react'></i>
+                                <div class="skills__description">
+                                    <h3 class="skills__card-title">REACT</h3>
+                                    <P id="react">Con la librería de React, busco los mejores patrones de diseño para
+                                        combinar rapidez y solidez</P>
+                                </div>
+                            </div>
+                        </label>
+                        <!-- CARD 3 -->
+                        <input type="radio" name="slide" id="c3" checked class="skills__input">
+                        <label for="c2" class="skills__card">
+                            <div class="skills__card-row">
+                                <i class='bx bxl-css3'></i>
+                                <div class="skills__description">
+                                    <h3 class="skills__card-title">CSS3</h3>
+                                    <P id="css3">Css3 ha avanzado mucho, con los nuevos avances, utilizo la agilidad y
+                                        rapidez que esta ofrece para integrar los mejores diseños en la web, en un
+                                        mercado competitivo y veloz</P>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <div class="skills__tags">
+                    <h3 id="blanda" class="skills__tags-title">Habilidades Blandas</h3>
+                    <div class="skills__tags-container">
+                        <span id="equipo" class="skills__tag">Trabajo en equipo</span>
+                        <span id="creative" class="skills__tag">Creativo</span>
+                        <span id="puntual" class="skills__tag">Puntual</span>
+                        <span id="proact" class="skills__tag">Proactivo</span>
+                        <span id="autodi" class="skills__tag">Autodidacta</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects section">
+            <h2 id="proj" class="section__title">Proyectos</h2>
+            <div class="projects__container grid--container">
+                <!-- Poryecto 1 -->
+                <div class="projects__project">
+                    <div class="projects__inner grid--container">
+                        <div class="projects_image">
+                            <img src="assets/img/project1.JPG" alt="Project one">
+                        </div>
+                        <div class="projects__info">
+                            <h3 class="projects__name">Proyecto 1</h3>
+                            <p class="projects__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Dicta, harum aspernatur similique rerum aut iure dolor eligendi aperiam, optio pariatur
+                                culpa odio ratione sint quos odit veritatis repellendus sit impedit.</p>
+                            <div class="projects__buttons">
+                                <button class="btn projects__button" type="button">VER DEMO</button>
+                                <button class="btn projects__button" type="button">VER CÓDIGO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 2 -->
+                <div class="projects__project">
+                    <div class="projects__inner grid--container">
+                        <div class="projects_image">
+                            <img src="assets/img/project2.JPG" alt="Project two">
+                        </div>
+                        <div class="projects__info">
+                            <h3 class="projects__name">Proyecto 2</h3>
+                            <p class="projects__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Dicta, harum aspernatur similique rerum aut iure dolor eligendi aperiam, optio pariatur
+                                culpa odio ratione sint quos odit veritatis repellendus sit impedit.</p>
+                            <div class="projects__buttons">
+                                <button class="btn projects__button" type="button">VER DEMO</button>
+                                <button class="btn projects__button" type="button">VER CÓDIGO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 3 -->
+                <div class="projects__project">
+                    <div class="projects__inner grid--container">
+                        <div class="projects_image">
+                            <img src="assets/img/project3.JPG" alt="Project three">
+                        </div>
+                        <div class="projects__info">
+                            <h3 class="projects__name">Proyecto 3</h3>
+                            <p class="projects__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Dicta, harum aspernatur similique rerum aut iure dolor eligendi aperiam, optio pariatur
+                                culpa odio ratione sint quos odit veritatis repellendus sit impedit.</p>
+                            <div class="projects__buttons">
+                                <button class="btn projects__button" type="button">VER DEMO</button>
+                                <button class="btn projects__button" type="button">VER CÓDIGO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact section">
+            <h2 id="contacte" class="section__title">Contacto</h2>
+            <div class="contact__container grid--container">
+                <div class="contact__info">
+                    <h3 id="contactInfo" class="contact__info-title">Informacion de contacto</h3>
+                    <p id="directInfo" class="contact__info-description">Información de contacto directo</p>
+                    <address class="contact__info-data">
+                        <div class="contact__info-item">
+                            <i class="bx bxl-whatsapp"></i>
+                            <span class="contact__info-number">
+                                <a href="" target="_blank">Enviar mensaje de whatsapp a:</a>
+                            </span>
+                        </div>
+                        <div class="contact__info-item">
+                            <i class="bx bxl-phone"></i>
+                            <span class="contact__info-phone">
+                                <a href="tel0975622023" target="_blank">+595975622023</a>
+                            </span>
+                        </div>
+                        <div class="contact__info-item">
+                            <i class="bx bxl-envelop"></i>
+                            <span class="contact__info-mail">
+                                <a href="mailto:eliasalban03@gmail.com" target="_blank">eliasalban03@gmail.com</a>
+                            </span>
+                        </div>
+                        <div class="contact__info-item">
+                            <i class="bx bxl-map"></i>
+                            <span class="contact__info-map">
+                                Encarnación, Paraguay
+                            </span>
+                        </div>
+                    </address>
+                </div>
+                <div class="contact__form">
+                    <h3 class="contact__form-title">Enviar mensaje</h3>
+                    <form id="form" class="contact__form-container">
+                        <div class="contact__form-group">
+                            <label for="name" class="contact__form-label">Nombre</label>
+                            <input type="text" name="name" id="name" class="contact__form-input">
+                        </div>
+                        <div class="contact__form-group">
+                            <label for="email" class="contact__form-label">Email</label>
+                            <input type="email" name="email" id="email" class="contact__form-input">
+                        </div>
+                        <div class="contact__form-group">
+                            <label for="subject" class="contact__form-label">Asunto</label>
+                            <input type="text" name="subject" id="subject" class="contact__form-input">
+                        </div>
+                        <div class="contact__form-group">
+                            <label for="message" class="contact__form-label">Mensaje</label>
+                            <textarea type="message" id="message" cols="15" rows="15    "
+                                class="contact__form-input"></textarea>
+                        </div>
+                        <dialog id="modal">
+                            Formulario enviado con éxito
+                            <button type="reset" id="btn_close-modal">Cerrar</button>
+                        </dialog>
+                        <button type="submit" class="btn contact__contact__form-button">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer section">
+        <div class="footer__container grid--container">
+            <div class="footer__info">
+
+                <h3 id="socialNet" class="footer__title">Redes sociales</h3>
+                <ul class="footer__social-list">
+                    <li class="footer__social-item"><a href="https://www.facebook.com/"><i
+                                class="bx bxl-facebook"></i></a></li>
+                    <li class="footer__social-item"><a href=""><i class="bx bxl-twitter"></i></a></li>
+                    <li class="footer__social-item"><a href="https://www.linkedin.com/feed/"><i
+                                class="bx bxl-linkedin"></i></a></li>
+                    <li class="footer__social-item"><a href="https://github.com/"><i class="bx bxl-github"></i></a></li>
+                </ul>
+                <h2 id="build">Hecha por Elias Alonzo, 2024</h2>
+            </div>
+        </div>
+        <p class="footer__copy"></p>
+    </footer>
+</body>
+
+</html>
