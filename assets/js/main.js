@@ -101,7 +101,7 @@ const buil = document.getElementById('build');
          if(this.classList.toggle('dark')){
           body.style.backgroundColor='black'
         }else{
-          body.style.backgroundColor='#1a1a2e'
+          body.style.backgroundColor='#37375f'
           body.style.color='white'
         }
           
