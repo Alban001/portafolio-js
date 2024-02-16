@@ -93,8 +93,16 @@ const buil = document.getElementById('build');
 
     });
     
+    const inputTogle = document.getElementById('darkmode-toggle');
+    const body = document.querySelector('body');
 
-    function myFunction() {
-      document.getElementById("homeSection").classList.toggle("dark");
-    }
-    document.getElementById("darkmode-toggle").onclick = function() {myFunction()};
+    inputTogle.addEventListener('click', function(){
+         body.classList.toggle('dark');
+         if(this.classList.toggle('dark')){
+          body.style.backgroundColor='black'
+        }else{
+          body.style.backgroundColor='#1a1a2e'
+          body.style.color='white'
+        }
+          
+    })
